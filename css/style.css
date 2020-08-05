@@ -917,6 +917,9 @@ input:checked+.slider.round:before {
     .main {
         margin-top: 120px;
     }
+    .togle{
+        margin-right: 32px;
+    }
 
     #head img {
         height: 200px;
