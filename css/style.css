@@ -947,8 +947,14 @@ input:checked+.slider.round:before {
         width: 350px;
         margin: 0;
     }
-    #navbar .row{
+
+    #navbar .row {
         margin: 5px;
+    }
+
+    #resume img {
+        margin-bottom: 0;
+        margin-right: 5px;
     }
 }
 
@@ -967,6 +973,11 @@ input:checked+.slider.round:before {
 
     .about h2 {
         font-size: 1.6rem;
+    }
+
+    #resume img {
+        margin-bottom: 0;
+        margin-right: 5px;
     }
 
     .myWorks .card {
