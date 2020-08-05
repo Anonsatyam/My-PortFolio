@@ -915,6 +915,6 @@ input:checked+.slider.round:before {
 
 @media (max-width : 480px) {
     #head img {
-        height: 230px;
+        height: 200px;
     }
 }
