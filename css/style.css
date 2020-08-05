@@ -816,7 +816,7 @@ input:checked+.slider.round:before {
     .togle {
         position: absolute;
         right: 28px;
-        /* top: 10px; */
+        top: 10px;
         transform: rotate(45deg);
     }
 
