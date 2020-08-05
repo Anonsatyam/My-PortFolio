@@ -245,6 +245,16 @@ input:checked+.slider.round:before {
     border-radius: 5px;
     margin-top: 15px;
 }
+.about #resume{
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.about #resume img{
+    height: 16px;
+    display: inline-block;
+}
 
 .myWorks {
     margin: 80px auto;
