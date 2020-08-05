@@ -22,7 +22,7 @@
 
 <body id="body">
     <div class="togle">
-        <label id="label" class="switch toggle">
+        <label id="label" class="switch toggle sun">
             <input id="toggle" type="checkbox">
             <span class="slider round"></span>
         </label>
@@ -335,6 +335,7 @@
         $(function () {
             let main = document.getElementById("body");
             let toggle = document.getElementById("toggle");
+            let dayNight = document.getElementById('label');
 
             toggle.addEventListener('click', e => {
                 if (toggle.checked) {
@@ -345,6 +346,15 @@
                     main.classList.remove('dark')
                 }
             });
+            toggle.addEventListener('click', e => {
+                if(toggle.checked) {
+                    dayNight.classList.add('moon')
+                }
+                else{
+                    dayNight.classList.remove('moon')
+                }
+            })
+
         });
     </script>
 

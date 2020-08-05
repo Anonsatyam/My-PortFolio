@@ -245,13 +245,15 @@ input:checked+.slider.round:before {
     border-radius: 5px;
     margin-top: 15px;
 }
-.about #resume{
+
+.about #resume {
     text-decoration: none;
     padding: 8px 16px;
     font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
 }
-.about #resume img{
+
+.about #resume img {
     height: 16px;
     display: inline-block;
 }
@@ -678,7 +680,7 @@ input:checked+.slider.round:before {
 
 /* Contcat */
 #navbar {
-    margin-bottom: 30px;
+    margin-bottom: 65px;
 }
 
 #navbar .row {
@@ -720,7 +722,7 @@ input:checked+.slider.round:before {
     padding: 0 25px;
     outline: none;
     border: 1.5px solid #7510F7;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .contact input[type=email] {
@@ -923,32 +925,88 @@ input:checked+.slider.round:before {
     }
 }
 
-@media only screen and (max-width: 320px)  {
+@media only screen and (max-width: 320px) {
     .main {
         margin-top: 120px;
     }
-    .togle{
+
+    .togle {
         margin-right: 30px;
     }
 
     #head img {
         height: 200px;
     }
-    .about h2{
+
+    .about h2 {
         font-size: 1.6rem;
     }
-    .myWorks .card{
+
+    .myWorks .card {
         width: 250px !important;
     }
-    .myWorks .col-sm-4{
+
+    .myWorks .col-sm-4 {
         margin: 0 auto;
         width: unset !important;
         height: unset !important;
     }
-    .slider-container{
+
+    .slider-container {
         width: 250px;
     }
-    .slider-container .image img{
+
+    .slider-container .image img {
         width: 250px !important;
+    }
+
+    .contact {
+        margin-top: 50px !important;
+    }
+
+    .contact form {
+        width: auto !important;
+    }
+
+    .contact .container h1 {
+        font-size: 20px !important;
+    }
+
+    .contact input[type=text],
+    .contact input[type=email] {
+        width: 270px;
+    }
+
+    .contact textarea {
+        width: 270px;
+    }
+}
+
+.sun {
+    animation: shadow-pulse-sun 1s infinite;
+    border-radius: 50px;
+}
+
+@keyframes shadow-pulse-sun {
+    0% {
+        box-shadow: 0 0 0 0px #f9d71c;
+    }
+
+    100% {
+        box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    }
+}
+.moon{
+    animation: shadow-pulse-moon 1s infinite;
+    border-radius: 50px;
+}
+
+@keyframes shadow-pulse-moon {
+    0% {
+        box-shadow: 0 0 0 0px #ffffff;
+    }
+
+    100% {
+        box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
     }
 }
