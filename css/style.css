@@ -810,6 +810,9 @@ input:checked+.slider.round:before {
 }
 
 @media (max-width: 720px) {
+    h1{
+        font-size: 32px !important;
+    }
     .main{
         margin-top: 150px;
     }
@@ -844,11 +847,23 @@ input:checked+.slider.round:before {
     #mySkills .col-sm-3{
         margin-bottom: 30px;
     }
+    #mySkills h3{
+        font-size: 1.5rem;
+    }
     .services .col-sm-4{
         margin: 18px;
     }
+    .services h3{
+        font-size: 1.4rem;
+    }
+    .collab h3{
+        font-size: 1.3rem;
+    }
     .footer{
         height: 500px;
+    }
+    .footer .container{
+        padding: 0 !important;
     }
     .footerInfo{
         width: fit-content;
