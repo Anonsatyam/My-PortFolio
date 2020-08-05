@@ -975,9 +975,11 @@ input:checked+.slider.round:before {
     .contact input[type=text],
     .contact input[type=email] {
         width: 270px;
+        display: block;
     }
 
     .contact textarea {
+        display: block;
         width: 270px;
     }
 }
