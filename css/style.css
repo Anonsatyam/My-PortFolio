@@ -923,6 +923,33 @@ input:checked+.slider.round:before {
         right: 0;
         bottom: 40px;
     }
+
+    .contact {
+        margin-top: 50px !important;
+    }
+
+    .contact form {
+        width: auto !important;
+    }
+
+    .contact .container h1 {
+        font-size: 20px !important;
+    }
+
+    .contact input[type=text],
+    .contact input[type=email] {
+        display: block;
+    }
+
+
+    .contact textarea {
+        display: block;
+        width: 350px;
+        margin: 0;
+    }
+    #navbar .row{
+        margin: 5px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -998,7 +1025,8 @@ input:checked+.slider.round:before {
         box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
     }
 }
-.moon{
+
+.moon {
     animation: shadow-pulse-moon 1s infinite;
     border-radius: 50px;
 }
