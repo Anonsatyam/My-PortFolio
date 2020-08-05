@@ -810,12 +810,14 @@ input:checked+.slider.round:before {
 }
 
 @media (max-width: 720px) {
-    h1{
+    h1 {
         font-size: 32px !important;
     }
-    .main{
+
+    .main {
         margin-top: 150px;
     }
+
     .togle {
         position: absolute;
         right: 28px;
@@ -835,41 +837,53 @@ input:checked+.slider.round:before {
         font-size: 20px;
         margin-bottom: 50px;
     }
-    .about img{
+
+    .about img {
         margin-bottom: 30px;
     }
-    .about .row{
+
+    .about .row {
         margin-bottom: 30px;
     }
-    #myWorks .row{
+
+    #myWorks .row {
         margin: 0 auto;
     }
-    #mySkills .col-sm-3{
+
+    #mySkills .col-sm-3 {
         margin-bottom: 30px;
     }
-    #mySkills h3{
+
+    #mySkills h3 {
         font-size: 1.5rem;
     }
-    .services .col-sm-4{
+
+    .services .col-sm-4 {
         margin: 18px;
     }
-    .services h3{
+
+    .services h3 {
         font-size: 1.4rem;
     }
-    .collab h3{
+
+    .collab h3 {
         font-size: 1.3rem;
     }
-    .footer{
+
+    .footer {
         height: 500px;
     }
-    .footer .container{
+
+    .footer .container {
         padding: 0 !important;
     }
-    .footerInfo{
+
+    .footerInfo {
         width: fit-content;
         margin-top: 140px;
     }
-    .footerInfo h2{
+
+    .footerInfo h2 {
         font-size: 22px;
     }
 
@@ -896,5 +910,11 @@ input:checked+.slider.round:before {
         position: relative;
         right: 0;
         bottom: 40px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #head img {
+        height: 230px;
     }
 }
