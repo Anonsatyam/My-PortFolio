@@ -914,6 +914,10 @@ input:checked+.slider.round:before {
 }
 
 @media (max-width : 480px) {
+    .main {
+        margin-top: 120px;
+    }
+
     #head img {
         height: 200px;
     }
