@@ -201,6 +201,7 @@ input:checked+.slider.round:before {
     margin: 80px auto;
 }
 
+
 .about .container {
     padding: 40px;
 }
@@ -251,6 +252,21 @@ input:checked+.slider.round:before {
     padding: 8px 16px;
     font-size: 16px;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.about #resume:hover img {
+    animation: upDown 1s ease-in-out infinite -50ms;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+
+    }
 }
 
 .about #resume img {
@@ -412,7 +428,7 @@ input:checked+.slider.round:before {
     margin-top: -450px;
     /* background: #fff; */
     border-radius: 15px;
-    /* box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8; */
+
 }
 
 #mySkills h1 {
@@ -432,7 +448,8 @@ input:checked+.slider.round:before {
 #mySkills .col-sm-3 {
     padding: 15px 0;
     text-align: center;
-    border: 0.1px solid #E6ECF8;
+    box-shadow: 5px 5px 10px #1b2230,
+        -5px -5px 10px #252e40;
     margin: 0 auto;
     border-radius: 8px;
 }
@@ -479,16 +496,17 @@ input:checked+.slider.round:before {
 }
 
 .services .col-sm-4 {
-    border: 1.5px solid #7510F7;
+    box-shadow: 5px 5px 10px #f0f0f0,
+        -5px -5px 10px #ffffff;
     padding: 25px 15px;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(.2, .1, .1, .2);
+    cursor: pointer;
 }
 
-.services .col-sm-4:hover {
+/* .services .col-sm-4:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in;
-}
+} */
 
 .services h2 {
     text-align: center;
